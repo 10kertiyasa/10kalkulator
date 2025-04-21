@@ -1,1 +1,0 @@
-# 10kertiyasa.github.io
