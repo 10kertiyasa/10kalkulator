@@ -35,7 +35,7 @@ html, body
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	color: #22252D;
+	color: #FFF;
 	text-align: right;
 	flex: 1 1 0%;
 }
