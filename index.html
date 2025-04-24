@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>10-Kalkulator</title>
 	<link rel="stylesheet" href="10-Kalkulator.css" />
+	<link rel="manifest" href="manifest.json">
 </head>
 <body>
 	
@@ -109,5 +110,12 @@
 
 	<script src="10-Kalkulator.js">
 	</script>
+	<script>
+		if ('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('sw.js')
+			.then(reg => console.log('✅ Service worker registered:', reg))
+			.catch(err => console.error('❌ Service worker registration failed:', err));
+		}
+	</script>	  
 </body>
 </html>

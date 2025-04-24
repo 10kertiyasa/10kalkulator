@@ -125,11 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
 				input_array[i] = "/100";
 			}
 		}
-		  if ('serviceWorker' in navigator) {
-    	navigator.serviceWorker.register('sw.js')
-      		.then(reg => console.log('✅ Service worker registered:', reg))
-      		.catch(err => console.error('❌ Service worker registration failed:', err));
-  }
 		return input_array.join("");
 	}
 });

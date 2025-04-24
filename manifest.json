@@ -2,7 +2,7 @@
     "name": "10-Kalkulator",
     "icons": [
     {
-      "src": "C:/Users/Lenovo/Pictures/Saved Pictures/10-Kalk.png",
+      "src": "10-Kalk.png",
       "sizes": "181x181",
       "type": "image/png",
       "purpose": "any maskable"
@@ -10,7 +10,7 @@
     ],
     "theme_color": "#292D36",
     "background_color": "#292D36",
-    "start_url": "/10kalkulator/",
+    "start_url": "./",
     "display": "standalone",
     "orientation": "portrait"
 }
