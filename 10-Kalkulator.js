@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		key.addEventListener('touchstart', () => {
 			console.log("Touched:", value);
 		});	
-		key.addEventListener('click', () => {x
+		key.addEventListener('click', () => {
 			console.log("Clicked:", value);
 			if (value == "clear") {
 				input = "";
