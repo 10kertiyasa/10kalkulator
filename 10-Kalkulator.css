@@ -34,7 +34,7 @@ html, body
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	color: white;
+	color: #22252D;
 	text-align: right;
 	flex: 1 1 0%;
 }
