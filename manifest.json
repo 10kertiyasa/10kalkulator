@@ -10,7 +10,7 @@
     ],
     "theme_color": "#292D36",
     "background_color": "#292D36",
-    "start_url": "/",
+    "start_url": "/10kalkulator/",
     "display": "standalone",
     "orientation": "portrait"
 }
